@@ -10,7 +10,7 @@ import re, os
 input_file = input("Enter file name: ")
 file_name = input("Enter base name for all of the files to be subset: ")
 
-new_folder = file_name + '_LexisNexis_Files'
+new_folder = 'LexisNexis_Article_Files'
 os.makedirs(new_folder)
 
 
